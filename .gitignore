@@ -1,0 +1,9 @@
+dev/*
+product
+icon
+dev/data/savedata/*
+
+
+!dev/data
+!dev/package.json
+!img
