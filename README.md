@@ -8,7 +8,7 @@ You can keep most-used tags in the library, keep them organized, and reuse them 
 All basic functions are implemented. Request and bug reports are welcome, but I cannot promise any update to them as it is mostly built for personal use.
 
 このアプリはストックフォト・ストックイラストのための画像の情報を編集するのに作られたメタデータの管理アプリです。
-特にタグの保管、分別や整理、簡易に再利用などに特化しています。
+特にタグの保管、分類や整理、簡易に再利用などに特化しています。
 
 基本的な機能はすべて搭載済み。要望やバグ報告などは提出できますが、個人のための開発のため、実装のお約束はできかねますのでご了承ください。
 
@@ -30,5 +30,5 @@ All basic functions are implemented. Request and bug reports are welcome, but I 
 | ファイルフォーマット  | JPEG |
 | 言語  | 英語、日本語  |
 | テーマ  | ライト、ダーク  |
-| OS | Windows (他のOSについては未確認) |
+| OS | Windows（他のOSについては未確認） |
 
