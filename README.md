@@ -32,3 +32,10 @@ All basic functions are implemented. Request and bug reports are welcome, but I 
 | テーマ  | ライト、ダーク  |
 | OS | Windows（他のOSについては未確認） |
 
+
+## Credits
+
+- [NW.js](https://github.com/nwjs/nw.js)
+- [Mithril.js](https://github.com/MithrilJS/mithril.js/)
+- [Fluent UI System Icons](https://github.com/microsoft/fluentui-system-icons)
+- [exiftool-vendored](https://github.com/photostructure/exiftool-vendored.pl)
