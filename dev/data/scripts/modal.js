@@ -306,7 +306,7 @@ var Modal = new class{
 				return [
 					m("div", {class:"settings_text"},[
 						m("div", {class:"_horizontal"},[
-							m("div", {class:"settings_text_title"}, "Meta Tagging v0.1.0"),
+							m("div", {class:"settings_text_title"}, "Meta Tagging v0.1.1"),
 							m("div", {class:"settings_text_small"}, "by hydescarf"),
 						]),
 						m("a", {href:"https://github.com/hydescarf/Meta-Tagging"}, "https://github.com/hydescarf/Meta-Tagging"),
