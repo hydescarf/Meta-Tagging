@@ -356,7 +356,7 @@ var Tag_Category_Layout = new class{
 					( _THIS.get_tag_input_mode() == "button" ? [
 						m("div", {class:"_horizontal _slide-down "+_THIS.get_minimize_status( category_id )},[
 							m("span", {class:"container_title"}, Language.get_text("LibraryPane.tag")+" ("+_THIS.get_tag_count( category_id )+")"),
-								m("input", {placeholder:"Add Tag",
+								m("input", {
 									onkeydown:(e)=>{ 
 										if( e.keyCode == 13 ) _THIS.update_tag( e.target, category_id );
 										if( e.keyCode == 27 ) _THIS.update_tag( e.target, category_id, true );
@@ -418,7 +418,7 @@ var Tag_Group_Layout = new class{
 				( _THIS.is_editing() ? [
 					m("span", {class:"container_title"}, Language.get_text("LibraryPane.group")),
 					( _THIS.is_group_renaming() ? [
-						m("input", {id:"ID_GroupRename", oncreate:({dom})=>{ dom.focus(); dom.value = _THIS.group_id[_THIS.current_group_id].name; }, placeholder:"Group",
+						m("input", {id:"ID_GroupRename", oncreate:({dom})=>{ dom.focus(); dom.value = _THIS.group_id[_THIS.current_group_id].name; },
 							onkeydown:(e)=>{ 
 								if( e.keyCode == 13 ){ _THIS.rename_group( e.target ); _THIS.group_rename_mode = false; }
 								if( e.keyCode == 27 ){ _THIS.rename_group( e.target, _THIS.current_group_id, true ); _THIS.group_rename_mode = false; }

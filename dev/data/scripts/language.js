@@ -38,6 +38,11 @@ var Language = new class{
 				settings:"Settings",
 			},
 			Dialogue:{
+				QuitApp:{
+					question:"Are you sure you want to quit?",
+					button_confirm:"Quit",
+					button_cancel:"Cancel",
+				},
 				Delete:{
 					question:"Are you sure you want to remove the following item?",
 					item_name_group:"Group",
@@ -160,6 +165,11 @@ var Language = new class{
 				settings:"設定",
 			},
 			Dialogue:{
+				QuitApp:{
+					question:"アプリを終了しますか？",
+					button_confirm:"終了",
+					button_cancel:"キャンセル",
+				},
 				Delete:{
 					question:"本当に以下のものを削除してもよろしいでしょうか？",
 					item_name_group:"グループ",

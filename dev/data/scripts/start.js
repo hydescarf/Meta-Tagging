@@ -25,6 +25,10 @@ document.addEventListener("keydown",(e)=>{
 		App.write_file_call();
 	}
 });
+nw.Window.get().on('close', ()=>{
+	Modal.Dialogue.call( "QuitApp", "", ()=>{ Modal.close(); nw.Window.get().close(true); } );
+	m.redraw();
+});
 
 
 

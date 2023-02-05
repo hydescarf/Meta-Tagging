@@ -40,6 +40,20 @@ var Modal = new class{
 	}
 	
 	Dialogue = {
+		QuitApp:{
+			get_button1:()=>{ },
+			get_button2:()=>{ Modal.close(); },
+			item_name:"",
+			view:(vnode)=>{
+				return [
+					m("span", {class:"dialogue_question"}, Language.get_text("Dialogue.QuitApp.question")),
+					m("div", {class:"_horizontal dialogue_buttons"}, [
+						m(Button, {class:"_type-warning", onclick:()=>{ vnode.state.get_button1(); }, oncreate:({dom})=>{ dom.focus(); }, icon:"", text:Language.get_text("Dialogue.QuitApp.button_confirm")}),
+						m(Button, {class:"", onclick:()=>{ vnode.state.get_button2(); }, icon:"", text:Language.get_text("Dialogue.QuitApp.button_cancel")}),
+					])
+				]
+			}
+		},
 		Deletion:{
 			get_button1:()=>{ },
 			get_button2:()=>{ Modal.close(); },

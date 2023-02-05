@@ -95,7 +95,7 @@ var App = new class{
 					"XMP:LastKeywordXMP": tag,
 					"XMP:LastKeywordIPTC": tag,
 				},
-				['-overwrite_original'] //prevent creation of new file
+				['-overwrite_original','-codedcharacterset=utf8'] //prevent creation of new file
 			)
 			.catch((err)=>{
 				console.error("Error: ", err);
